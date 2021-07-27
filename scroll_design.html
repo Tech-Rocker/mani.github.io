@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scroll page</title>
+	<link rel="stylesheet" type="text/css" href="scroll.css">
+</head>
+<body>
+	<section>
+		<h2>creative scroll progress bar</h2>
+		<p>printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desktop publish 
+		the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk
+	<br>the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with deskthe industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br><br><br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk<br>
+	the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ccently with desk
+</p>
+	</section>
+
+
+	<div id="cursorMeter">
+		<div id="percent">page scrolled</div>
+		<div id="scrollpath">
+			<div id="pregressBar"></div>
+		</div>
+	</div>
+
+
+	<script>
+	let cursorMeter = document.getElementById('cursorMeter');
+	document.addEventListener('mousemove', function(e){
+		cursorMeter.style.top = e.clientY+'px';
+		cursorMeter.style.left = e.clientX+'px';
+	})
+
+	Let percent = document.getElementById('percent');
+	Let pregressBar = document.getElementById('pregressBar');
+
+	Let totalHeight = document.body.scrollHeight - window.innerHeight;
+
+	window.onscroll = function(){
+		Let progress = (window.pageYoffset / totalHeight) * 100;
+		pregressBar.style.width = progress + '%';
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color:#0073EC;
+  height:300vw;
+}
+section{
+  width:100%;
+  height:165vw;
+  clip-path: circle(65.8% at 50% 30%);
+  position:static;
+}
+video{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:165vw;
+  object-fit:cover;
+  pointer-events:none;
+  clip-path: circle(65.8% at 50% 45%);
+}
+.transparent{
+  position:absolute;
+  top:0px;
+  left:0px;
+  background:linear-gradient(to bottom left,#FF077399,#C107FF99);
+  width:100%;
+  height:165vw;
+  clip-path: circle(65.8% at 50% 45%);
+}
+.heading-1{
+  position:absolute ;
+  color:white;
+  color:white;
+  font-family: 'Baloo Tammudu 2', cursive;
+  line-height:0.9;
+  top:-10vw;
+  
+}
+.content-header{
+  position:relative;
+  top:100vw;
+  font-size:5vw;
+  padding:10px;
+}
+.date{
+  position:absolute;
+  padding-left:5vw;
+  padding-top:10vw;
+  color:white;
+  font-size:6vw;
+  font-family: 'Rubik', sans-serif;
+}
+.section-2{
+  width:100%;
+  height:450vw;
+  background-color:#0073EC;
+  position:relative;
+  top:160vw;
+}
+.earth{
+  font-size:10vw;
+  position:absolute;
+  padding-top:10vw;
+  padding-left:80vw;
+}
+.p_1{
+  color:white;
+  padding-top:10vw;
+  font-size:5vw;
+  text-align:center;
+  font-weight:999;
+  font-family: 'Mate SC', serif;
+}
+.box-1{
+  width:80%;
+  height:55vw;
+  position:relative;
+  background:#F9F9F9;
+  left:50%;
+  top:30vw;
+  transform:translate(-50%,-50%);
+  transition:1s ease-in-out height;
+}
+.img-box{
+  position: relative;
+  width: 60vw;
+  left: 10vw;
+  top:-5vw;
+}
+.box-1:hover{
+  height:90vw;
+}
+ .box-1:hover .quote-1{
+  top:50vw;
+}
+.image-1{
+  width:100%;
+}
+.quote-1{
+  text-align:center ;
+ width:60vw;
+ position:absolute ;
+ left:10vw;
+ top:-5vw;
+ transition:1s;
+ font-weight:999 ;
+font-family: 'Roboto Mono', monospace;
+font-size:4vw;
+}
+.box-2{
+  width:80%;
+  height:55vw;
+  position:relative;
+  background:#F9F9F9;
+  left:50%;
+  top:60vw;
+  transform:translate(-50%,-50%);
+  transition:1s ease-in-out height;
+}
+.img-box-2{
+  position: relative;
+  width: 60vw;
+  left: 10vw;
+  top:-5vw;
+}
+.box-2:hover{
+  height:80vw;
+}
+ .box-2:hover .quote-2{
+  top:50vw;
+}
+.image-2{
+  width:100%;
+}
+.quote-2{
+  text-align:center ;
+ width:60vw;
+ position:absolute ;
+ left:10vw;
+ top:-5vw;
+ transition:1s;
+ font-weight:999 ;
+font-family: 'Roboto Mono', monospace;
+font-size:5vw;
+}
+
+
+
+.box-3{
+  width:80%;
+  height:55vw;
+  position:relative;
+  background:#F9F9F9;
+  left:50%;
+  top:90vw;
+  transform:translate(-50%,-50%);
+  transition:1s ease-in-out height;
+}
+.img-box-3{
+  position: relative;
+  width: 60vw;
+  left: 10vw;
+  top:-5vw;
+}
+.box-3:hover{
+  height:80vw;
+}
+ .box-3:hover .quote-3{
+  top:40vw;
+  opacity:1;
+}
+.image-3{
+  width:100%;
+}
+.quote-3{
+  text-align:center ;
+ width:60vw;
+ position:absolute ;
+ left:10vw;
+ top:-5vw;
+ transition:1s;
+ font-weight:999 ;
+font-family: 'Roboto Mono', monospace;
+opacity:0;
+font-size:4vw;
+
+}
+ 
+ 
+ 
+ .box-4{
+  width:80%;
+  height:55vw;
+  position:relative;
+  background:#F9F9F9;
+  left:50%;
+  top:140vw;
+  transform:translate(-50%,-50%);
+  transition:1s ease-in-out height;
+}
+.img-box-4{
+  position: relative;
+  width: 60vw;
+  height:50vw;
+  left: 10vw;
+  top:-5vw;
+}
+.box-4:hover{
+  height:110vw;
+}
+ .box-4:hover .quote-4{
+  top:40vw;
+  opacity:1;
+}
+.image-4{
+  width:100%;
+  height:100%;
+}
+.quote-4{
+  text-align:center ;
+ width:60vw;
+ position:absolute ;
+ left:10vw;
+ top:-5vw;
+ transition:1s;
+ font-weight:999 ;
+font-family: 'Roboto Mono', monospace;
+opacity:0;
+font-size:4vw;
+
+}
+.follow{
+  width:80vw;
+  background-color:#FD0D50;
+  font-size:10vw;
+  position:relative;
+  top:140vw;
+  font-family: 'Roboto Mono', monospace;
+  padding-left:5vw;
+  
+}
+.wave{
+  width:100%;
+  position:relative;
+  height:65vw;
+  top:160vw;
+}
+.icon-1{
+  width:20vw;
+  top:130vw;
+  position:relative;
+  left:60vw;
+}
+.icon-2{
+  width:20vw;
+  position:relative;
+  left:-5vw;
+  top:130vw;
+}
